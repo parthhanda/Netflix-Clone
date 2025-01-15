@@ -6,22 +6,27 @@
     font-family: "Poppins", serif;
 }
 
+body{
+    background-color: black;
+}
+
 .main {
     background-image: url("assets/images/bg.jpg");
-    height: 80vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 70vh;
     position: relative;
 }
 
 .main .box {
-    height: 80vh;
+    height: 70vh;
     width: 100%;
-    opacity: 0.45;
+    opacity: 0.69;
     position: absolute;
     top: 0;
     background-color: black;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: max(1200px, 100vw);
+    
 }
 
 nav {
@@ -47,17 +52,44 @@ nav buttons {
 
 .hero {
     font-family: "Martel Sans", serif;
-    height: 100%;
+    height: calc(100% - 62px);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     color: white;
     position: relative;
-    gap: 23px;
+    gap: 10px;
+    padding: 0 30px;
 }
 
-.hero :first-child {
+.hero> :first-child {
+    font-family: "Poppins", serif;
     font-weight: bolder;
     font-size: 48px;
+    text-align: center;
+}
+
+.hero> :nth-child(2){
+    font-family: "Poppins", serif;
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero> :nth-child(3){
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero> :nth-child(4){
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.seperation{
+    height: 7px;
+    background-color: #434141;
 }
