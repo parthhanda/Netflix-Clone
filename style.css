@@ -6,7 +6,7 @@
     font-family: "Poppins", serif;
 }
 
-body{
+body {
     background-color: black;
 }
 
@@ -26,7 +26,7 @@ body{
     position: absolute;
     top: 0;
     background-color: black;
-    
+
 }
 
 nav {
@@ -45,7 +45,7 @@ nav img {
     z-index: 10;
 }
 
-nav buttons {
+nav button {
     position: relative;
     z-index: 10;
 }
@@ -70,26 +70,68 @@ nav buttons {
     text-align: center;
 }
 
-.hero> :nth-child(2){
+.hero> :nth-child(2) {
     font-family: "Poppins", serif;
     font-weight: bolder;
     font-size: 48px;
     text-align: center;
 }
 
-.hero> :nth-child(3){
+.hero> :nth-child(3) {
     font-weight: 400;
     font-size: 24px;
     text-align: center;
 }
 
-.hero> :nth-child(4){
+.hero> :nth-child(4) {
     font-weight: 400;
     font-size: 20px;
     text-align: center;
 }
 
-.seperation{
+.seperation {
     height: 7px;
     background-color: #434141;
 }
+
+.btn {
+    padding: 3px 8px;
+    font-weight: 400;
+    background-color: white;
+    color: white;
+    background-color: rgba(248, 243, 243, 0.021);
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 21px;
+    border-radius: 4px;
+    font-weight: 400;
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+}
+
+.hero-buttons{
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.main input {
+    padding: 7px 101px 8px 14px;
+    color: white;
+    font-size: 17px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+}
+
