@@ -119,7 +119,7 @@ nav button {
     color: white;
 }
 
-.hero-buttons{
+.hero-buttons {
     /* display: flex; */
     align-items: center;
     justify-content: center;
@@ -135,3 +135,73 @@ nav button {
     border: 1px solid rgba(246, 238, 238, 0.5);
 }
 
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.secImg {
+    position: relative;
+
+}
+
+.secImg img {
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+    padding-top: 10px;
+}
+
+.secImg video {
+    position: absolute;
+    top: 51px;
+    right: 58px;
+    width: 343px;
+    height: 222px;
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+}
+
+section.first>div :first-child {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.faq {
+    background: black;
+    color: white;
+    padding: 34px;
+}
+
+.faqbox:hover {
+    background-color: rgba(130, 125, 125, 0.645);
+}
+
+.faqbox {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    background-color: rgb(130 125 125 / 42%);
+    padding: 24px;
+    max-width: 60vw;
+    margin: 34px auto;
+    cursor: pointer;
+    transition: all 0.4s ease-out;
+}
